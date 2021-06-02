@@ -1,0 +1,69 @@
+body {
+  background-color: #FFFFFF;
+}
+
+h3 {
+  text-align: right;
+  transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+  color: #00b894;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.form,
+.grettings {
+  display: none;
+  text-align: center;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 10;
+  }
+  
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1.5s linear;
+}
+
+button {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.days-info {
+  text-align: center;
+  color: #00b894;
+}
+
+.todo-Form {
+  margin: auto;
+  width: 50%;
+}
+
+.todo-input {
+  padding: 5px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
